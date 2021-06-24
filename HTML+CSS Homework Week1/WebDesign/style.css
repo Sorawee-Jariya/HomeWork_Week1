@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  header {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 10vh;
+    align-items: center;
+  }
+  
+  .logo-container,
+  .nav-links,
+  .cart {
+    display: flex;
+  }
+  .logo {
+    font-weight: 400;
+    margin: 5px;
+  }
+  .logo-container {
+    flex: 1;
+  }
+  nav {
+    flex: 2;
+  }
+  .nav-links {
+    justify-content: space-around;
+    list-style: none;
+  }
+  .nav-link {
+    color: lightslategrey;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .presentation {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+  }
+  .introduction {
+    flex: 1;
+  }
+  .intro-text h1 {
+    font-size: 46px;
+  }
+  .intro-text p {
+    font-size: 22px;
+  }
+  .cta {
+    padding-top: 50px;
+  }
+  .cta-select,
+  .cta-add {
+    border: 2px solid rgb(100, 96, 96);
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    color: grey;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    margin: 0px 10px;
+  }
+  a:hover {
+    background-color: rgb(255, 255, 255);
+  }
+  .cover {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .cover img {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 60vh;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .cart {
+    flex: 1;
+  }
+  body {
+    font-family: "Inter", sans-serif;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/200/112/950/material-design-design-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  div.centered {
+    font-size: 50px;
+  }
+  
